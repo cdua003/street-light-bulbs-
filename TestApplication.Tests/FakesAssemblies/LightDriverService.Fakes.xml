@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LightDriverService.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:LightDriverService.Fakes.StubILightDriverService">
+            <summary>Stub type of LightDriverService.ILightDriverService</summary>
+        </member>
+        <member name="M:LightDriverService.Fakes.StubILightDriverService.#ctor">
+            <summary>Initializes a new instance of type StubILightDriverService</summary>
+        </member>
+        <member name="M:LightDriverService.Fakes.StubILightDriverService.LightDriverService#ILightDriverService#SwitchOffBulb(System.Guid)">
+            <summary>Sets the stub of ILightDriverService.SwitchOffBulb(Guid bulbId)</summary>
+        </member>
+        <member name="M:LightDriverService.Fakes.StubILightDriverService.LightDriverService#ILightDriverService#SwitchOffLight(System.Guid)">
+            <summary>Sets the stub of ILightDriverService.SwitchOffLight(Guid lightId)</summary>
+        </member>
+        <member name="M:LightDriverService.Fakes.StubILightDriverService.LightDriverService#ILightDriverService#SwitchOnBulb(System.Guid)">
+            <summary>Sets the stub of ILightDriverService.SwitchOnBulb(Guid bulbId)</summary>
+        </member>
+        <member name="M:LightDriverService.Fakes.StubILightDriverService.LightDriverService#ILightDriverService#SwitchOnLight(System.Guid)">
+            <summary>Sets the stub of ILightDriverService.SwitchOnLight(Guid lightId)</summary>
+        </member>
+        <member name="F:LightDriverService.Fakes.StubILightDriverService.SwitchOffBulbGuid">
+            <summary>Sets the stub of ILightDriverService.SwitchOffBulb(Guid bulbId)</summary>
+        </member>
+        <member name="F:LightDriverService.Fakes.StubILightDriverService.SwitchOffLightGuid">
+            <summary>Sets the stub of ILightDriverService.SwitchOffLight(Guid lightId)</summary>
+        </member>
+        <member name="F:LightDriverService.Fakes.StubILightDriverService.SwitchOnBulbGuid">
+            <summary>Sets the stub of ILightDriverService.SwitchOnBulb(Guid bulbId)</summary>
+        </member>
+        <member name="F:LightDriverService.Fakes.StubILightDriverService.SwitchOnLightGuid">
+            <summary>Sets the stub of ILightDriverService.SwitchOnLight(Guid lightId)</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LightSensorService.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:LightSensorService.Fakes.ShimAbstractSensorService`1">
+            <summary>Shim type of LightSensorService.AbstractSensorService`1</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.ShimAbstractSensorService`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.ShimAbstractSensorService`1.#ctor(LightSensorService.AbstractSensorService{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:LightSensorService.Fakes.ShimAbstractSensorService`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.ShimAbstractSensorService`1.AllInstances.OnSensorReadingAddEventHandlerOfT0">
+            <summary>Sets the shim of AbstractSensorService`1.add_OnSensorReading(EventHandler`1&lt;!0&gt; value)</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.ShimAbstractSensorService`1.AllInstances.OnSensorReadingRemoveEventHandlerOfT0">
+            <summary>Sets the shim of AbstractSensorService`1.remove_OnSensorReading(EventHandler`1&lt;!0&gt; value)</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.ShimAbstractSensorService`1.AllInstances.SensorReadingGet">
+            <summary>Sets the shim of AbstractSensorService`1.get_SensorReading()</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.ShimAbstractSensorService`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.ShimAbstractSensorService`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.ShimAbstractSensorService`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.ShimAbstractSensorService`1.Bind(LightSensorService.ISensorService{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.ShimAbstractSensorService`1.Constructor">
+            <summary>Sets the shim of AbstractSensorService`1.AbstractSensorService`1()</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.ShimAbstractSensorService`1.OnSensorReadingAddEventHandlerOfT0">
+            <summary>Sets the shim of AbstractSensorService`1.add_OnSensorReading(EventHandler`1&lt;!0&gt; value)</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.ShimAbstractSensorService`1.OnSensorReadingRemoveEventHandlerOfT0">
+            <summary>Sets the shim of AbstractSensorService`1.remove_OnSensorReading(EventHandler`1&lt;!0&gt; value)</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.ShimAbstractSensorService`1.SensorReadingGet">
+            <summary>Sets the shim of AbstractSensorService`1.get_SensorReading()</summary>
+        </member>
+        <member name="T:LightSensorService.Fakes.ShimLightSensorService">
+            <summary>Shim type of LightSensorService.LightSensorService</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.ShimLightSensorService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.ShimLightSensorService.#ctor(LightSensorService.LightSensorService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:LightSensorService.Fakes.ShimLightSensorService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.ShimLightSensorService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.ShimLightSensorService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.ShimLightSensorService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.ShimLightSensorService.Bind(LightSensorService.IAmbientLightSensorService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.ShimLightSensorService.Bind(LightSensorService.ISensorService{System.Int32})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.ShimLightSensorService.Constructor">
+            <summary>Sets the shim of LightSensorService.LightSensorService()</summary>
+        </member>
+        <member name="T:LightSensorService.Fakes.StubAbstractSensorService`1">
+            <summary>Stub type of LightSensorService.AbstractSensorService`1</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.StubAbstractSensorService`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.StubAbstractSensorService`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.StubAbstractSensorService`1.InitializeStub">
+            <summary>Initializes a new instance of type StubAbstractSensorService</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.StubAbstractSensorService`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.StubAbstractSensorService`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:LightSensorService.Fakes.StubIAmbientLightSensorService">
+            <summary>Stub type of LightSensorService.IAmbientLightSensorService</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.StubIAmbientLightSensorService.#ctor">
+            <summary>Initializes a new instance of type StubIAmbientLightSensorService</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.StubIAmbientLightSensorService.LightSensorService#ISensorService{System#Int32}#SensorReading">
+            <summary>Sets the stub of ISensorService`1.get_SensorReading()</summary>
+        </member>
+        <member name="F:LightSensorService.Fakes.StubIAmbientLightSensorService.SensorReadingGet">
+            <summary>Sets the stub of ISensorService`1.get_SensorReading()</summary>
+        </member>
+        <member name="T:LightSensorService.Fakes.StubISensorService`1">
+            <summary>Stub type of LightSensorService.ISensorService`1</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.StubISensorService`1.#ctor">
+            <summary>Initializes a new instance of type StubISensorService</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.StubISensorService`1.LightSensorService#ISensorService{T}#SensorReading">
+            <summary>Sets the stub of ISensorService`1.get_SensorReading()</summary>
+        </member>
+        <member name="F:LightSensorService.Fakes.StubISensorService`1.SensorReadingGet">
+            <summary>Sets the stub of ISensorService`1.get_SensorReading()</summary>
+        </member>
+        <member name="T:LightSensorService.Fakes.StubLightSensorService">
+            <summary>Stub type of LightSensorService.LightSensorService</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.StubLightSensorService.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.StubLightSensorService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:LightSensorService.Fakes.StubLightSensorService.InitializeStub">
+            <summary>Initializes a new instance of type StubLightSensorService</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.StubLightSensorService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:LightSensorService.Fakes.StubLightSensorService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/BundledLess")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    
+    <main class="container body-content" style="display:none" data-bind="visible: true">
+        @RenderBody()
+    </main>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

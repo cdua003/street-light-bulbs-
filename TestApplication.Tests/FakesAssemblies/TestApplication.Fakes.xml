@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestApplication.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:TestApplication.Controllers.Fakes.ShimHomeController">
+            <summary>Shim type of TestApplication.Controllers.HomeController</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.#ctor(TestApplication.Controllers.HomeController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.ShimHomeController.About">
+            <summary>Sets the shim of HomeController.About()</summary>
+        </member>
+        <member name="T:TestApplication.Controllers.Fakes.ShimHomeController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.ShimHomeController.AllInstances.About">
+            <summary>Sets the shim of HomeController.About()</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.ShimHomeController.AllInstances.Contact">
+            <summary>Sets the shim of HomeController.Contact()</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.ShimHomeController.AllInstances.Index">
+            <summary>Sets the shim of HomeController.Index()</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.ShimHomeController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.Bind(System.Web.Mvc.Filters.IAuthenticationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.ShimHomeController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.ShimHomeController.Constructor">
+            <summary>Sets the shim of HomeController.HomeController()</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.ShimHomeController.Contact">
+            <summary>Sets the shim of HomeController.Contact()</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.ShimHomeController.Index">
+            <summary>Sets the shim of HomeController.Index()</summary>
+        </member>
+        <member name="T:TestApplication.Controllers.Fakes.StubHomeController">
+            <summary>Stub type of TestApplication.Controllers.HomeController</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.StubHomeController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.Content(System.String,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.ContentStringStringEncoding">
+            <summary>Sets the stub of Controller.Content(String content, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.CreateActionInvoker">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.CreateActionInvoker01">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.CreateTempDataProvider">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.CreateTempDataProvider01">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.StubHomeController.DisableAsyncSupport">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.DisableAsyncSupportGet">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.Dispose(System.Boolean)">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.DisposeBoolean">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.ExecuteCore">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.ExecuteCore01">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.ExecuteRequestContext">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.FileByteArrayStringString">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.FileStreamStringString">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.FileStringStringString">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.HandleUnknownActionString">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.HttpNotFound(System.String)">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.HttpNotFoundString">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.InitializeRequestContext">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.InitializeStub">
+            <summary>Initializes a new instance of type StubHomeController</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.StubHomeController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:TestApplication.Controllers.Fakes.StubHomeController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.JavaScript(System.String)">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.JavaScriptString">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.Json(System.Object,System.String,System.Text.Encoding)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.Json(System.Object,System.String,System.Text.Encoding,System.Web.Mvc.JsonRequestBehavior)">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.JsonObjectStringEncoding">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.JsonObjectStringEncodingJsonRequestBehavior">
+            <summary>Sets the stub of Controller.Json(Object data, String contentType, Encoding contentEncoding, JsonRequestBehavior behavior)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.OnAuthentication(System.Web.Mvc.Filters.AuthenticationContext)">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.OnAuthenticationAuthenticationContext">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.OnAuthenticationChallenge(System.Web.Mvc.Filters.AuthenticationChallengeContext)">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.OnAuthenticationChallengeAuthenticationChallengeContext">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.OnExceptionExceptionContext">
+            <summary>Sets the stub of Controller.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.PartialViewStringObject">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.Redirect(System.String)">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.RedirectPermanentString">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.RedirectString">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="M:TestApplication.Controllers.Fakes.StubHomeController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.ViewIViewObject">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="F:TestApplication.Controllers.Fakes.StubHomeController.ViewStringStringObject">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.ShimBundleConfig">
+            <summary>Shim type of TestApplication.BundleConfig</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimBundleConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimBundleConfig.#ctor(TestApplication.BundleConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.ShimBundleConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimBundleConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimBundleConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimBundleConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimBundleConfig.Constructor">
+            <summary>Sets the shim of BundleConfig.BundleConfig()</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimBundleConfig.RegisterBundlesBundleCollection">
+            <summary>Sets the shim of BundleConfig.RegisterBundles(BundleCollection bundles)</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.ShimFilterConfig">
+            <summary>Shim type of TestApplication.FilterConfig</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimFilterConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimFilterConfig.#ctor(TestApplication.FilterConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.ShimFilterConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimFilterConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimFilterConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimFilterConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimFilterConfig.Constructor">
+            <summary>Sets the shim of FilterConfig.FilterConfig()</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimFilterConfig.RegisterGlobalFiltersGlobalFilterCollection">
+            <summary>Sets the shim of FilterConfig.RegisterGlobalFilters(GlobalFilterCollection filters)</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.ShimMvcApplication">
+            <summary>Shim type of TestApplication.MvcApplication</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimMvcApplication.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimMvcApplication.#ctor(TestApplication.MvcApplication)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.ShimMvcApplication.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimMvcApplication.AllInstances.Application_Start">
+            <summary>Sets the shim of MvcApplication.Application_Start()</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimMvcApplication.Application_Start">
+            <summary>Sets the shim of MvcApplication.Application_Start()</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimMvcApplication.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimMvcApplication.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimMvcApplication.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimMvcApplication.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimMvcApplication.Bind(System.Web.IHttpAsyncHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimMvcApplication.Bind(System.Web.IHttpHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimMvcApplication.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimMvcApplication.Constructor">
+            <summary>Sets the shim of MvcApplication.MvcApplication()</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.ShimRouteConfig">
+            <summary>Shim type of TestApplication.RouteConfig</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimRouteConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimRouteConfig.#ctor(TestApplication.RouteConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.ShimRouteConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimRouteConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimRouteConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimRouteConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimRouteConfig.Constructor">
+            <summary>Sets the shim of RouteConfig.RouteConfig()</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimRouteConfig.RegisterRoutesRouteCollection">
+            <summary>Sets the shim of RouteConfig.RegisterRoutes(RouteCollection routes)</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.ShimWebApiConfig">
+            <summary>Shim type of TestApplication.WebApiConfig</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimWebApiConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimWebApiConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.ShimWebApiConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimWebApiConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.ShimWebApiConfig.RegisterHttpConfiguration">
+            <summary>Sets the shim of WebApiConfig.Register(HttpConfiguration config)</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.StubBundleConfig">
+            <summary>Stub type of TestApplication.BundleConfig</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubBundleConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubBundleConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubBundleConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubBundleConfig</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubBundleConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubBundleConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.StubFilterConfig">
+            <summary>Stub type of TestApplication.FilterConfig</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubFilterConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubFilterConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubFilterConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubFilterConfig</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubFilterConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubFilterConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.StubMvcApplication">
+            <summary>Stub type of TestApplication.MvcApplication</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubMvcApplication.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubMvcApplication.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubMvcApplication.Dispose">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="F:TestApplication.Fakes.StubMvcApplication.Dispose01">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubMvcApplication.GetOutputCacheProviderName(System.Web.HttpContext)">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="F:TestApplication.Fakes.StubMvcApplication.GetOutputCacheProviderNameHttpContext">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubMvcApplication.GetVaryByCustomString(System.Web.HttpContext,System.String)">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="F:TestApplication.Fakes.StubMvcApplication.GetVaryByCustomStringHttpContextString">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubMvcApplication.Init">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="F:TestApplication.Fakes.StubMvcApplication.Init01">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubMvcApplication.InitializeStub">
+            <summary>Initializes a new instance of type StubMvcApplication</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubMvcApplication.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubMvcApplication.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:TestApplication.Fakes.StubRouteConfig">
+            <summary>Stub type of TestApplication.RouteConfig</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubRouteConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubRouteConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:TestApplication.Fakes.StubRouteConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubRouteConfig</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubRouteConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:TestApplication.Fakes.StubRouteConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

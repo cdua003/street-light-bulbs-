@@ -1,0 +1,271 @@
+﻿@color_1: #5489d3;
+@color_2: white;
+@color_3: green;
+@color_4: yellowgreen;
+@color_5: orange;
+@color_6: red;
+@background_color_1: #f5f5f5;
+@background_color_2: yellow;
+@background_color_3: black;
+@background_color_4: red;
+
+/* Set padding to keep content from hitting the edges */
+/* Set width on the form input elements since they're 100% wide by default */
+@keyframes opa {
+    12% {
+        opacity: 0.8;
+    }
+
+    19.5% {
+        opacity: 0.88;
+    }
+
+    37.2% {
+        opacity: 0.64;
+    }
+
+    40.5% {
+        opacity: 0.52;
+    }
+
+    52.7% {
+        opacity: 0.69;
+    }
+
+    60.2% {
+        opacity: 0.6;
+    }
+
+    66.6% {
+        opacity: 0.52;
+    }
+
+    70% {
+        opacity: 0.63;
+    }
+
+    79.9% {
+        opacity: 0.6;
+    }
+
+    84.2% {
+        opacity: 0.75;
+    }
+
+    91% {
+        opacity: 0.87;
+    }
+}
+
+@keyframes rota {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    padding: 15px;
+    background-color: @background_color_1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+input {
+    max-width: 280px;
+}
+
+select {
+    max-width: 280px;
+}
+
+textarea {
+    max-width: 280px;
+}
+
+h2 {
+    padding-left: 6px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.shadowContent {
+    position: relative;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+    background: white;
+    margin: 4px;
+    min-height: 400px;
+}
+
+article.shadowContent {
+    padding: 10px;
+    min-width: 600px;
+}
+
+article {
+    h2 {
+        padding-left: 0;
+    }
+}
+
+.streetlights {
+    width: 280px;
+    float: left;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        border-bottom: 1px solid #77a5e5;
+
+        &:last-child {
+            border: none;
+        }
+
+        a {
+            font: 20px;
+            color: @color_1;
+            display: block;
+            cursor: pointer;
+            padding: 3px;
+            padding-left: 8px;
+
+            &:hover {
+                color: @color_2;
+                background: #5489d3;
+            }
+        }
+    }
+}
+
+li {
+    a.active {
+        color: @color_2;
+        background: #5489d3;
+    }
+}
+
+.streetlight-details {
+    float: left;
+    margin-left: 20px;
+    width: auto;
+
+    .complete {
+        font-style: italic !important;
+    }
+}
+
+.bulb-display {
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.bulb-status-on {
+    background-color: @background_color_2;
+}
+
+.bulb-status-off {
+    background-color: @background_color_3;
+}
+
+.bulb-status-fault {
+    background-color: @background_color_4;
+}
+
+.bulb-temperature-normal {
+    color: @color_3;
+}
+
+.bulb-temperature-low {
+    color: @color_4;
+}
+
+.bulb-temperature-high {
+    color: @color_5;
+}
+
+.bulb-temperature-over {
+    color: @color_6;
+    font-weight: bold;
+}
+
+.error-font {
+    color: @color_6;
+}
+
+.warning-font {
+    color: @color_4;
+}
+
+.error-msg {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#loading {
+    right: 20px;
+    margin: auto;
+    position: absolute;
+    top: 40px;
+}
+
+.bokeh {
+    border-radius: 50%;
+    font-size: 50px;
+    height: 1em;
+    list-style: outside none none;
+    margin: 0 auto;
+    position: relative;
+    top: 35%;
+    width: 1em;
+    z-index: 2147483647;
+
+    li {
+        border-radius: 50%;
+        height: 0.2em;
+        position: absolute;
+        width: 0.2em;
+
+        &:nth-child(1) {
+            animation: 1.13s linear 0s normal none infinite running rota, 3.67s ease-in-out 0s alternate none infinite running opa;
+            background: #00c176 none repeat scroll 0 0;
+            left: 50%;
+            margin: 0 0 0 -0.1em;
+            top: 0;
+            transform-origin: 50% 250% 0;
+        }
+
+        &:nth-child(2) {
+            animation: 1.86s linear 0s normal none infinite running rota, 4.29s ease-in-out 0s alternate none infinite running opa;
+            background: #ff003c none repeat scroll 0 0;
+            margin: -0.1em 0 0;
+            right: 0;
+            top: 50%;
+            transform-origin: -150% 50% 0;
+        }
+
+        &:nth-child(3) {
+            animation: 1.45s linear 0s normal none infinite running rota, 5.12s ease-in-out 0s alternate none infinite running opa;
+            background: #fabe28 none repeat scroll 0 0;
+            bottom: 0;
+            left: 50%;
+            margin: 0 0 0 -0.1em;
+            transform-origin: 50% -150% 0;
+        }
+
+        &:nth-child(4) {
+            animation: 1.72s linear 0s normal none infinite running rota, 5.25s ease-in-out 0s alternate none infinite running opa;
+            background: #88c100 none repeat scroll 0 0;
+            margin: -0.1em 0 0;
+            top: 50%;
+            transform-origin: 250% 50% 0;
+        }
+    }
+}

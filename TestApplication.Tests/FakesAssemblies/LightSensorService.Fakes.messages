@@ -1,0 +1,2 @@
+C:\Users\glennm.CJNDOMAIN\documents\visual studio 2015\Projects\TestApplication\TestApplication.Tests\Fakes\LightSensorService.fakes : warning : Cannot generate shim for LightSensorService.IAmbientLightSensorService: type is an interface.
+C:\Users\glennm.CJNDOMAIN\documents\visual studio 2015\Projects\TestApplication\TestApplication.Tests\Fakes\LightSensorService.fakes : warning : Cannot generate shim for LightSensorService.ISensorService`1: type is an interface.

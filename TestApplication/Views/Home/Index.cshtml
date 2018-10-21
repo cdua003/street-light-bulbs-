@@ -1,0 +1,50 @@
+﻿@section Scripts {
+    @Scripts.Render("~/bundles/application")
+}
+
+<section class="streetlights">
+    <header>
+        <h2>Streetlights</h2>
+    </header>
+    <nav class="shadowContent">
+        <ul data-bind="foreach: streetlights">
+            <li><a data-bind="text: description, click: $parent.selectStreetlight.bind($data, $parent), css: $root.toggleStreetlightStatus($data)"></a></li>
+        </ul>
+    </nav>
+</section>
+<section class="streetlight-details">
+    <header>
+        <h2 style="display:inline-block">Streetlight Details</h2>
+    </header>
+    <article class="shadowContent" data-bind="with: selectedStreetlight">
+        <div data-bind="with: $root">
+            <button class="pull-right" data-bind="click: toggleLightState.bind($data, selectedStreetlight()), text: selectedStreetlight().isSwitchedOn() ? 'Switch Off' : 'Switch On'"></button>
+            <h2>Streetlight Information</h2>
+            <p>Power Draw: <span class="warning-font" data-bind="text: $root.totalPowerDraw(selectedStreetlight())"></span>W</p>
+            <div data-bind="visible: $root.loading" id="loading">
+                <ul class="bokeh">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <h3>Bulb Information</h3>
+            <ul class="list-group" data-bind="foreach: bulbs">
+                <li class="list-group-item">
+                    <div class="bulb-display" data-bind="css: ($root.isFailed($data) ? 'bulb-status-fault' : bulbStatus().isOn ? 'bulb-status-on' : 'bulb-status-off')"></div>
+                    <span data-bind="visible: !$root.isFailed($data), text: bulbStatus().isOn ? 'On' : 'Off'"></span>
+                    <span data-bind="bulbInformation.bulbType"></span>
+                    <span data-bind="visible: $root.isFailed($data)">Failed</span>
+                    Temperature: <span data-bind="text: bulbStatus().bulbTemperature, css: $root.bulbTemperatureStatus($data)"></span>/<span data-bind="text:bulbInformation.maxTemperature"></span>C
+                    Hours: <span data-bind="text: bulbStatus().bulbHours"></span>/<span data-bind="text:bulbInformation.maxHours"></span>hrs
+                    <button class="pull-right" data-bind="visible: $root.selectedStreetlight().isSwitchedOn() && !$root.isFailed($data), click: $root.toggleBulbState.bind($data, $root), text: bulbStatus().isOn ? 'Switch Off' : 'Switch On'"></button>
+                    <button class="pull-right" data-bind="click: $root.setOrRepair.bind($data, $root), text: $root.getCurrentState($data)"></button>
+                    <span class="pull-right error-font error-msg" data-bind="visible: $root.isFailed($data)">failure</span>
+                </li>
+            </ul>
+        </div>
+    </article>
+</section>
