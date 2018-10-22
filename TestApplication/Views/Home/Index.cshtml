@@ -39,7 +39,7 @@
                     <span data-bind="bulbInformation.bulbType"></span>
                     <span data-bind="visible: $root.isFailed($data)">Failed</span>
                     Temperature: <span data-bind="text: bulbStatus().bulbTemperature, css: $root.bulbTemperatureStatus($data)"></span>/<span data-bind="text:bulbInformation.maxTemperature"></span>C
-                    Hours: <span data-bind="text: bulbStatus().bulbHours"></span>/<span data-bind="text:bulbInformation.maxHours"></span>hrs
+                    Hours: <span data-bind="text: bulbStatus().bulbHours, css: { 'bulb-temperature-over' : bulbStatus().bulbHours > bulbInformation.maxHours }"></span>/<span data-bind="text:bulbInformation.maxHours"></span>hrs
                     <button class="pull-right" data-bind="visible: $root.selectedStreetlight().isSwitchedOn() && !$root.isFailed($data), click: $root.toggleBulbState.bind($data, $root), text: bulbStatus().isOn ? 'Switch Off' : 'Switch On'"></button>
                     <button class="pull-right" data-bind="click: $root.setOrRepair.bind($data, $root), text: $root.getCurrentState($data)"></button>
                     <span class="pull-right error-font error-msg" data-bind="visible: $root.isFailed($data)">failure</span>
