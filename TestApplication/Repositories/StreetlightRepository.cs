@@ -133,6 +133,10 @@ namespace TestApplication.Repositories
             {
                 return false;
             }
+            if (bulbState.BulbCurrentState.BulbHours > bulbState.BulbInformation.MaxHours)
+            {
+                return false;
+            }
             return true;
         }
 
