@@ -6,6 +6,7 @@
 
 #Assumptions Made When Developing the Solution
  1. Each bulb must belong to one and only one Streetlight
+ 2. bulb still can be turned on if its running hours exceeds its max hours
  
 # Tasks
  1. Task 1 - Completed
@@ -17,6 +18,7 @@
  7. Optional Extension tasks - Completed
  8. Additional - Set the first streetlight as default selected streetlight after app loaded
  9. Additional - Highlight selected streetlight
+ 10. Additional - Set the font of bulb running hours to be red if its running hours exceeds its max hours
  
 # Start
  1. Clean solution
